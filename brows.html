@@ -5,24 +5,32 @@
      <title>
      Брови - это выше глаз
      </title>
+         <style>
+         .transparent25 {
+    filter: alpha(Opacity=25); /* Полупрозрачность для IE */
+    opacity: 0.25; /* Полупрозрачность для других браузеров */
+   }
+   .fig {
+    text-align: center; /* Выравнивание по центру */
+   }
+   body { background: url(brows/images/main_brows.jpg); }
+   text { text-align: center; }
+  </style>
 
   </head>
 <body>
-<hr>
-  <script type="text/javascript">
-    var fileName=["bmw.jpeg","bmw-brabus.jpeg"]
-    var moto=["BMW-B1600","Сиденье BMW-B1600"]
-    var bmw="Смесь BMW и Harley Davidson"
-    var sead_bmw="Шикарный диван"
-// массив с тексом - описание
-var text=[bmw,seat_bmw]
-var path="../"
-var lst,mytext,pict
-windows.onload=function(){
-lst=document.
+<p class="fig">Oy_brows      Санкт-Петербург        м. Невский</p>
+<p class="transparent25"><img src="../brows/images/main_brows.jpg"
+  alt="Эти брови могуть быть вашими" width="100%"></p>
+<!--class="transparent25"    непрозрачность 25-->
+<p>
+  <img src="../brows/images/1brows.jpg" alt="Оригинальное изображение"
+   width="250" height="243">
+  <img src="../brows/images/2brows.jpg" alt="Непрозрачность 75%"
+   width="250" height="243">
+  <img src="../brows/images/3brows.jpg" alt="Непрозрачность 50%"
+   width="250" height="243">
+ </p>
 
-}
-  </script>
-  <hr>
 </body>
 </html>
