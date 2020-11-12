@@ -5,8 +5,19 @@
 .fig {
     text-align: center; /* Выравнивание по центру */
    }
+.container {                      /*текст на картинке */
+       position: relative;
+}
+.container img {                      /*текст на картинке */
+       position: absolute;
+}
+.container p{                      /*текст на картинке */
+       color: black;
+       position: relative;
+}
+
 body { background-image: url(images/main_brows.jpg) no-repeat;
-   background-size: cover;
+       background-size: cover;
    }
 text { text-align: center;
    }
