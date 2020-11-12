@@ -1,0 +1,20 @@
+.transparent25 {
+    filter: alpha(Opacity=15); /* Полупрозрачность для IE */
+    opacity: 0.15; /* Полупрозрачность для других браузеров */
+   }
+.fig {
+    text-align: center; /* Выравнивание по центру */
+   }
+body { background-image: url(images/main_brows.jpg) no-repeat;
+   background-size: cover;
+   }
+text { text-align: center;
+   }
+.thumb img  {
+    margin-right: 70px; /* Отступ справа */
+    margin-bottom: 30px; /* Отступ снизу */
+   }
+.leftimg {
+    float:left; /* Выравнивание по левому краю */
+    margin: 10px 50px 10px 0; /* Отступы вокруг картинки */
+   }
