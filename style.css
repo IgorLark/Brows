@@ -4,8 +4,14 @@
    }
 .fig {
     text-align: center; /* Выравнивание по центру */
-    font-size: 40px;
+    font-size: 50px;
    }
+.fig_R {
+    text-align: center; /* Выравнивание по центру */
+    font-size: 10px;
+   }
+
+
 .container {                      /*текст на картинке */
        position: relative;
 }
@@ -27,7 +33,7 @@ text { text-align: center;
     border-radius: 10px;/* Скругление уголков */
    }
 .leftimg {
-    float:left; /* Выравнивание по левому краю */
+    float:left;  /* Выравнивание по левому краю */
     margin: 10px 40px 10px 0; /* Отступы вокруг картинки */
     border-radius: 130px; /* Радиус скругления */
     box-shadow: 0 0 0 3px red, 0 0 11px #333; /* Параметры теней */
@@ -38,8 +44,8 @@ p:first-letter {
 
 .whatsapp-button {           /*  начало стиля для кнопки whatsapp  */
     position: fixed;
-    right: 13px;
-    bottom: 90px;
+    right: 90px;
+    top: 90px;
     transform: translate(-50%, -50%);
     background: #25D366; /*цвет кнопки*/
     border-radius: 50%;
@@ -98,7 +104,6 @@ p:first-letter {
     left: 70px; /*отступ кнопки слева от экрана(right - справа)*/
   }
 }
-
 
                           /*  конец стиля для вацап  */
 
