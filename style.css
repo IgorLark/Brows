@@ -4,6 +4,7 @@
    }
 .fig {
     text-align: center; /* Выравнивание по центру */
+    font-size: 40px;
    }
 .container {                      /*текст на картинке */
        position: relative;
@@ -14,18 +15,23 @@
 .container p{                      /*текст на картинке */
        color: black;
        position: relative;
-}
-
+   }
 body { background-image: url(images/main_brows.jpg) no-repeat;
        background-size: cover;
    }
 text { text-align: center;
    }
-.thumb img  {
+.thumb img {
     margin-right: 70px; /* Отступ справа */
     margin-bottom: 30px; /* Отступ снизу */
+    border-radius: 10px;/* Скругление уголков */
    }
 .leftimg {
     float:left; /* Выравнивание по левому краю */
-    margin: 10px 50px 10px 0; /* Отступы вокруг картинки */
+    margin: 10px 40px 10px 0; /* Отступы вокруг картинки */
+    border-radius: 130px; /* Радиус скругления */
+    box-shadow: 0 0 0 3px red, 0 0 11px #333; /* Параметры теней */
    }
+p:first-letter {
+    color: red;
+    }
