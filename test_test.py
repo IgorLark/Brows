@@ -16,3 +16,4 @@ for a in A:
             txt = txt + str(j) + "-й элемент 2-го списка - " + str(a)
             print(txt)
 print("finish")
+
