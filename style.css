@@ -18,7 +18,7 @@
        position: absolute;
 }
 .container p{                      /*текст на картинке */
-       color: green;
+       color: black;
        position: relative;
    }
 body { background-image: url(images/main_brows.jpg) no-repeat;
@@ -34,7 +34,7 @@ text { text-align: center;
    }
 .leftimg {
     float:right;  /* Выравнивание по правому краю */
-    margin: 10px 40px 10px 0; /* Отступы вокруг картинки */
+    margin: 10px 40px 10px 20px; /* Отступы вокруг картинки */
     border-radius: 130px; /* Радиус скругления */
     box-shadow: 0 0 0 3px red, 0 0 11px #333; /* Параметры теней */
    }
@@ -110,6 +110,10 @@ p:first-letter {
 }
 
                           /*  конец стиля для вацап  */
-
-
-
+.shadowbox {            /*  прямоугольник с тенью  */
+  width: 15em;
+  border: 1px solid #333;
+  box-shadow: 8px 8px 5px #444;
+  padding: 8px 12px;
+  background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
+}
