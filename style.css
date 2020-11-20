@@ -8,7 +8,7 @@
    }
 .fig_R {
     text-align: center; /* Выравнивание по центру */
-    font-size: 10px;
+    font-size: 20px;
    }
 
 .container {                      /*текст на картинке */
@@ -49,7 +49,7 @@ p:first-letter {
 .whatsapp-button {           /*  начало стиля для кнопки whatsapp  */
     position: fixed;
     right: 130px;
-    top: 90px;
+    top: 330px;             /*  отступ кнопки от верха  */
     transform: translate(-50%, -50%);
     background: #25D366; /*цвет кнопки*/
     border-radius: 50%;
