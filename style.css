@@ -16,6 +16,7 @@
 }
 .container img {                      /*текст на картинке */
        position: absolute;
+       background-size: cover;
 }
 .container p{                      /*текст на картинке */
        color: black;
